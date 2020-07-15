@@ -23,7 +23,8 @@ Tutorial on how to use docker to spin up multiple of the same container
 # 
 
 ### Step 2: Execute ```docker-compose``` command
-```docker-compose up -d --scale <name of service in compose>=<number of containers>``` a
+```docker-compose up -d --scale <name of service in compose>=<number of containers>```
+
 
 Example:
 ```docker-compose up -d --scale plex=5```
