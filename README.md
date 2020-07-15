@@ -5,7 +5,7 @@ Tutorial on how to use docker to spin up multiple of the same container
 # Scaling in Docker
 
 ### Step 1: Setup ```docker-compose``` file
-#### In this situation I'm using Plex, cause I like Plex. This can be any container you'd like. Such as httpd Apache webservers or MySQL databases
+#### In this situation I'm using Plex, cause I like Plex. This can be any container you'd like. Such as ```httpd Apache webservers``` or ```MySQL databases```
 ---
     version: "3.8"
     services:
