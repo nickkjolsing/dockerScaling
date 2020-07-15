@@ -29,4 +29,4 @@ Notes from: https://medium.com/@ainaleke/spinning-up-and-managing-multi-containe
 
 
 
-[example](https://media2.giphy.com/media/lPF7CLMel8QxXDS86U/giphy.gif)
+![example](https://media2.giphy.com/media/lPF7CLMel8QxXDS86U/giphy.gif)
