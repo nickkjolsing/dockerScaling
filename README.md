@@ -1,6 +1,6 @@
 # How to scale docker containers
 Tutorial on how to use docker to spin up multiple of the same container
-![Image of Docker](https://www.stratoscale.com/wp-content/uploads/docker-logo.gif)
+![Image of Docker](https://i.imgur.com/bgsutU8.png)
 
 # Scaling in Docker
 ##### In this situation I'm using Plex, cause I like Plex. This can be any container you'd like. Such as httpd Apache webservers or MySQL databases
