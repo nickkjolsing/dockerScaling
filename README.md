@@ -1,4 +1,4 @@
-# How to scale docker containers
+# How To Scale docker containers
 Tutorial on how to use docker to spin up multiple of the same container
 ![Image of Docker](https://www.stratoscale.com/wp-content/uploads/docker-logo.gif)
 #### Docker container used: linuxserver/plex
