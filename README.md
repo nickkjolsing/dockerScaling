@@ -7,6 +7,8 @@ Tutorial on how to use docker to spin up multiple of the same container
 
 ### Step 1: Setup ```docker-compose``` file
 # 
+```docker-compose``` for some Plex containers!
+```
 ---
     version: "3.8"
     services:
@@ -20,6 +22,7 @@ Tutorial on how to use docker to spin up multiple of the same container
             volumes:
                 - /home/ubuntu/dockerScale/plex/config
                 - /home/ubuntu/dockerScale/plex/movies
+```
 # 
 
 ### Step 2: Execute ```docker-compose``` command
