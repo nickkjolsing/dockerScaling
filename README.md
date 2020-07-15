@@ -1,5 +1,4 @@
 # How to scale docker containers
-Tutorial on how to use docker to spin up multiple of the same container
 ![Image of Docker](https://www.docker.com/sites/default/files/d8/styles/role_icon/public/2019-07/horizontal-logo-monochromatic-white.png?itok=SBlK2TGU)
 
 # Scaling in Docker
