@@ -23,12 +23,15 @@ Tutorial on how to use docker to spin up multiple of the same container
 # 
 
 ### Step 2: Execute ```docker-compose``` command
-```docker-compose up -d --scale <name of service in compose>=<number of containers>```
+```docker-compose up -d --scale <name of service in compose>=<number of containers>``` a
+
 Example:
 ```docker-compose up -d --scale plex=5```
 - ```docker-compose up -d``` starts the ```docker-compose.yml``` file in the background
 - ```--scale plex=5``` tells it to create 5 containers of the service "plex" from my ```docker-compose.yml```
-#
+# 
+![example](https://media2.giphy.com/media/lPF7CLMel8QxXDS86U/giphy.gif)
+# 
 
 #### Important side-notes
 - Make sure that if you name your containers, they each have a unique name
@@ -43,9 +46,6 @@ Example:
 - If the container already exists, don't recreate it
     - Add ```--no-recreate``` to ```docker-compose up``` command
 # 
-
-## Example
-![example](https://media2.giphy.com/media/lPF7CLMel8QxXDS86U/giphy.gif)
 
 
 
