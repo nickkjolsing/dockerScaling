@@ -23,6 +23,7 @@ Tutorial on how to use docker to spin up multiple of the same container
 # 
 
 ### Step 2: Execute ```docker-compose``` command
+
 ```docker-compose up -d --scale <name of service in compose>=<number of containers>```
 
 
@@ -38,8 +39,8 @@ Example:
 - Make sure that if you name your containers, they each have a unique name
 - If you need to map ports within ```docker-compose.yml``` make sure that *each* container is assigend a different port
     - Example: ports section of ```docker-compose.yml``` for an Apache webserver (httpd)
-        ports:
-            - 80-85:8080
+    ports:
+        - 80-85:8080
     - This will assign 80,...,85 in ascending order to the 5 containers created and expose them to 8080
 # 
 
