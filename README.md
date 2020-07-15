@@ -41,8 +41,9 @@ Example:
     - Example: ports section of ```docker-compose.yml``` for an Apache webserver (httpd)
 ```    
     ports:
-        - 80-85:8080```
-    - This will assign 80,...,85 in ascending order to the 5 containers created and expose them to 8080
+        - 80-85:8080 
+``` 
+- This will assign 80,...,85 in ascending order to the 5 containers created and expose them to 8080
 # 
 
 #### Extra features wooo!
