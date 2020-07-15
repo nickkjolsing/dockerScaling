@@ -42,7 +42,6 @@ Example:
 ```    
     ports:
         - 80-85:8080
-```
     - This will assign 80,...,85 in ascending order to the 5 containers created and expose them to 8080
 # 
 
